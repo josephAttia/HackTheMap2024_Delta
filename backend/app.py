@@ -1,9 +1,13 @@
 from flask import Flask, request
 from flask import url_for
-from flask_cors import CORS
+# from flask_cors import CORS
 from flask import jsonify
 
 app = Flask(__name__)
+
+# LOLLLLL this is joe
+
+# joe did this
 
 
 italy = {
@@ -28,6 +32,9 @@ def get_places():
     return {"places": ["place1", "place2"]}
 
 # /reg/user/<id>
+
+
+# this is a comment by joe
 
 @app.get("/api/places/<place_id>")
 def get_place(place_id):
