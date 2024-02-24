@@ -46,5 +46,9 @@ def get_place(place_id):
         return italy
     return {"place": place_id}
 
+@app.get("/api/quiz")
+def get_quiz():
+    return "This is your country quiz"
+
 if __name__ == '__main__':
     app.run(debug=True)
