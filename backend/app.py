@@ -33,6 +33,9 @@ def get_places():
 
 # /reg/user/<id>
 
+
+# this is a comment by joe
+
 @app.get("/api/places/<place_id>")
 def get_place(place_id):
     # for:
