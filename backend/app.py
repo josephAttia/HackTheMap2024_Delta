@@ -1,9 +1,12 @@
 from flask import Flask, request
 from flask import url_for
-from flask_cors import CORS
+# from flask_cors import CORS
 from flask import jsonify
 
 app = Flask(__name__)
+
+
+# joe did this
 
 
 italy = {
